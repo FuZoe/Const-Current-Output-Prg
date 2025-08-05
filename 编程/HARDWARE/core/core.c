@@ -41,6 +41,21 @@ void key_check(void)
 }
 
 /*
+函数名称: LCD_DisplayTest
+功能描述: (调试专用)LCD硬件显示的功能完整性测试
+*/
+void LCD_DisplayTest()
+{
+	u8 LCD_DIS_TAB1[]={"123456789abcdefg"};
+	u8 i;
+	for(i=0;i<16;i++)
+	{
+		LCD_write_data(LCD_DIS_TAB1[i]);
+	}
+	
+}
+
+/*
 函数名称: display
 功能描述: 显示电流值和开关状态到LCD屏上
 主要逻辑:
@@ -52,6 +67,7 @@ void key_check(void)
 */
 void display(void)
 {
+	
 	//显示电流值大小
 	u16 dis_value;
 	dis_value=Set_data/100;
@@ -69,12 +85,13 @@ void display(void)
 	//刷新开关
 	if(StartFlag==1)
 	{
-		LCD_write_string(11,1,"on ");		
+		LCD_write_string(11,1,"on ");
 	}
 	else
-	LCD_write_string(11,1,"off");		
+		LCD_write_string(11,1,"off");		
 
 }
+
 
 #define VREF 3247		//单位MV
 float Temp;

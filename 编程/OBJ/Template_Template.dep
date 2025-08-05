@@ -1,5 +1,5 @@
 Dependencies for Project 'Template', Target 'Template': (DO NOT MODIFY !)
-F (.\main.c)(0x6891AF52)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\core -I ..\HARDWARE\timer -I ..\HARDWARE\tlc5615 -I ..\HARDWARE\1602 -I ..\HARDWARE\KEY -I ..\HARDWARE\adc-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_LD -DSTM32F10X_LD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x6891BEBE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\core -I ..\HARDWARE\timer -I ..\HARDWARE\tlc5615 -I ..\HARDWARE\1602 -I ..\HARDWARE\KEY -I ..\HARDWARE\adc-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_LD -DSTM32F10X_LD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (stm32f10x.h)(0x61E17FE0)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
@@ -860,7 +860,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\HARDWARE\core\core.c)(0x6891AB99)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\core -I ..\HARDWARE\timer -I ..\HARDWARE\tlc5615 -I ..\HARDWARE\1602 -I ..\HARDWARE\KEY -I ..\HARDWARE\adc-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_LD -DSTM32F10X_LD -DUSE_STDPERIPH_DRIVER-o ..\obj\core.o --omf_browse ..\obj\core.crf --depend ..\obj\core.d)
+F (..\HARDWARE\core\core.c)(0x6891BE91)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\core -I ..\HARDWARE\timer -I ..\HARDWARE\tlc5615 -I ..\HARDWARE\1602 -I ..\HARDWARE\KEY -I ..\HARDWARE\adc-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_LD -DSTM32F10X_LD -DUSE_STDPERIPH_DRIVER-o ..\obj\core.o --omf_browse ..\obj\core.crf --depend ..\obj\core.d)
 I (..\USER\stm32f10x.h)(0x61E17FE0)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
@@ -962,7 +962,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\SYSTEM\delay\delay.h)(0x555AC82A)
-F (..\HARDWARE\1602\1602.c)(0x6891AB92)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\core -I ..\HARDWARE\timer -I ..\HARDWARE\tlc5615 -I ..\HARDWARE\1602 -I ..\HARDWARE\KEY -I ..\HARDWARE\adc-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_LD -DSTM32F10X_LD -DUSE_STDPERIPH_DRIVER-o ..\obj\1602.o --omf_browse ..\obj\1602.crf --depend ..\obj\1602.d)
+F (..\HARDWARE\1602\1602.c)(0x6891BD8F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\core -I ..\HARDWARE\timer -I ..\HARDWARE\tlc5615 -I ..\HARDWARE\1602 -I ..\HARDWARE\KEY -I ..\HARDWARE\adc-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_LD -DSTM32F10X_LD -DUSE_STDPERIPH_DRIVER-o ..\obj\1602.o --omf_browse ..\obj\1602.crf --depend ..\obj\1602.d)
 I (..\HARDWARE\1602\1602.h)(0x6448EA26)
 I (..\SYSTEM\sys\sys.h)(0x550F951A)
 I (..\USER\stm32f10x.h)(0x61E17FE0)

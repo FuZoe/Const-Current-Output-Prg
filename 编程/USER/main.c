@@ -28,11 +28,15 @@ int  main(void)
 		key_check();
 		CC_Calc();
 		
+		//每300ms（0.3秒）触发一次LCD显示刷新
 		if(DIS_FLAG==Ture)
-			{
-				DIS_FLAG=False;
-				display();
-			} 
+		{
+			DIS_FLAG=False;
+			//LCD_DisplayTest();//(调试专用)LCD硬件显示的功能完整性测试
+			display();//为做调试暂且注释掉
+			
+		} 
+
 	}	
 }
 
