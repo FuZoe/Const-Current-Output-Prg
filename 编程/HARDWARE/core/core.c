@@ -39,6 +39,17 @@ void key_check(void)
 		default:;
 	}
 }
+
+/*
+函数名称: display
+功能描述: 显示电流值和开关状态到LCD屏上
+主要逻辑:
+1. 显示电流值的整数部分和小数部分。
+2. 根据开关状态显示 "on" 或 "off"。
+参数: 无
+返回值: 无
+注：该函数在主函数中循环执行
+*/
 void display(void)
 {
 	//显示电流值大小
@@ -55,8 +66,7 @@ void display(void)
 	LCD_write_cmd(0x80+0x40+5);
 	LCD_write_data(LCD1602_Table[(dis_value%10)]);
 	
-	
-	
+	//刷新开关
 	if(StartFlag==1)
 	{
 		LCD_write_string(11,1,"on ");		
